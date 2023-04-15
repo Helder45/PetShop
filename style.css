@@ -84,5 +84,10 @@ header{
     color: #000;
 }
 .enviar{
-    
+    width: 44px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background: #00b1eb;
 }
