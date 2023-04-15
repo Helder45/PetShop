@@ -63,7 +63,7 @@ header{
 .busca{
     display: inline;
     position: absolute;
-    width: 400px;
+    width: 435px;
     height: 40px;
     top: 25px;
     left: 430px;
@@ -84,10 +84,17 @@ header{
     color: #000;
 }
 .enviar{
-    width: 44px;
-    height: 40px;
-    border-radius: 30px;
-    justify-content: center;
+    position: absolute;
+    box-sizing: border-box;
+    border: none;
+    top: -1px;
+    left: 410px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
     align-items: center;
     background: #00b1eb;
+}
+.enviar:hover{
+    cursor: pointer;
 }
