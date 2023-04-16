@@ -5,7 +5,7 @@
 @font-face {
     font-family: Uni-Neue-Demo-Strong;
     src: url(fonts/unineue-bold.otf);
-}
+} 
 .logo-m3:hover{
     cursor: pointer;
 }
@@ -24,7 +24,10 @@ a:hover{
 
 body{
     padding: 0px;
-    margin: 0px;
+    margin: 0px;    
+}
+header{
+    display: block;
     font-family: Uni-Neue-Demo, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -32,9 +35,6 @@ body{
     line-height: 15px;
     text-decoration: none;
     color: #fff;
-}
-header{
-    display: block;
     background-color: #4F235C;
     opacity: .90;
     width: auto;
