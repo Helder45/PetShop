@@ -10,3 +10,17 @@
 .banner img{
     max-width: 1350px;
 }
+.caminhao{
+    position: absolute;
+    left: 5%;
+}
+.cartao{
+    position: absolute;
+    left: 30%;
+}
+.mao{
+    position: absolute;
+}
+.casa{
+    position: absolute;
+}
