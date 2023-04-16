@@ -28,6 +28,8 @@ body{
 }
 header{
     display: block;
+    position: fixed;
+    z-index: 10;
     font-family: Uni-Neue-Demo, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -35,9 +37,9 @@ header{
     line-height: 15px;
     text-decoration: none;
     color: #fff;
-    background-color: #4F235C;
+    background-color: #4f235c;
     opacity: .90;
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 0px 32px;
 }

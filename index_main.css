@@ -1,0 +1,12 @@
+.banner{
+    position: relative;
+    z-index: 1;
+    width: 1350px;
+    height: 100%;
+    margin-bottom: 12px;
+    box-sizing: content-box;
+    
+}
+.banner img{
+    max-width: 1350px;
+}
