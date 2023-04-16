@@ -23,8 +23,8 @@ a:hover{
 }
 
 body{
-    padding: 0px;
-    margin: 0px;    
+    padding: 0;
+    margin: 0;    
 }
 header{
     display: block;
@@ -137,3 +137,33 @@ header{
     bottom: 85px;
     right: 105px;
 }
+nav{
+    font-family: Uni-Neue-Demo;
+    font-size: 12px;
+}
+nav ul {
+    position: absolute;
+    top: 125px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+  }
+
+  nav ul li .cor-diferente{
+    color: #d3d800;
+  }
