@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Uni-Neue-Demo;
+    src: url(fonts/unineue-regular.otf);
+}
+@font-face {
+    font-family: Uni-Neue-Demo-Strong;
+    src: url(fonts/unineue-bold.otf);
+} 
+main{
+    font-family: Uni-Neue-Demo;
+}
 .banner{
     position: relative;
     z-index: 1;
@@ -11,16 +22,29 @@
     max-width: 1350px;
 }
 .caminhao{
-    position: absolute;
-    left: 5%;
+    display: inline-block;
+    margin-left: 100px;
+    border: 2px solid #000;
+   
+}
+.caminhao .escrita{
+    display: inline-block;
+    
 }
 .cartao{
-    position: absolute;
+    display: inline-block;
+    margin-left: 20%;
+    border: 2px solid #000;
     left: 30%;
 }
 .mao{
-    position: absolute;
+    display: inline-block;
+    margin-left: 20%;
+    border: 2px solid #000;
 }
 .casa{
-    position: absolute;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 10%;
+    border: 2px solid #000;
 }
